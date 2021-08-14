@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 300px;
+    height: 300px;
+    background: transparent;
+    margin: 50px auto;
+    border-radius: 50%;
+    border-top: 20px solid red;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    animation: animat1 1.5s infinite;
+   
+}
+@keyframes animat1{
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
+.box-roted {
+    width: 300px;
+    height: 300px;
+    background: transparent;
+    border-radius: 50%;
+    margin: auto;
+    border-left: 20px solid blue;
+    border-top: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    box-sizing: border-box;
+    animation: animat2 1.5s infinite;
+    position: relative;
+    top: 10px;
+    left: 1px;
+}
+@keyframes animat2{
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}

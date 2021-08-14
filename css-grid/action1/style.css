@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.red{
+    background: red;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-align: center;
+    padding: .5rem 0;
+    border: 1px solid green;
+}
+.black{
+    background: black;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-align: center;
+    padding: .5rem 0;
+    border: 1px solid green;
+}
+
+#main-title{
+    font-size: 35px;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    color: chocolate;
+    text-align: center;
+}
+.container{
+      max-width: 1190px;
+      margin: 0 auto;
+      display: grid;
+
+
+
+      /* grid-template-columns: 200px 200px; */
+      /* grid-template-rows: 300px 300px; */
+      /* grid-template-columns: 100px auto 100px; */
+      /* grid-template-columns: 200px auto 200px; */
+      /* grid-row-gap: 2px; */
+      /* grid-column-gap: 2px; */
+      /* grid-gap: 2px; */
+
+      
+      /* 100% Responsive */
+      /* height: 50vh; */
+      /* grid-template-columns: 1fr 2fr; */
+      /* grid-template-rows: 2fr 3fr; */
+      /* grid-template:2fr 3fr / 1fr 2fr; */
+      /* First Row  by Column */
+      /* grid-gap: 2px; */
+
+
+      /* Simplefy */
+      /* height: 50vh; */
+      /* grid-template-columns: repeat(3, 1fr); */
+      /* grid-template-rows: repeat(3, 1fr); */
+      /* grid-template: repeat(3, 1fr) / repeat(3, 1fr); */
+
+
+      
+}
